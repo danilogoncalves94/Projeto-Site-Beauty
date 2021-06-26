@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Lovers+Quarrel&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@media(max-width: 1050px) {
+    .imagens {width: 100%;}
+}
+
+h1 {
+    font-family: 'Lovers Quarrel', cursive;
+    font-weight: normal;
+    text-align: center;
+    font-size: 85px;
+    margin: 10px;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin: 20px;
+    justify-content: center;   
+}
+
+li {
+    padding: 30px 30px;
+    font-size: 20px;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 1050px;
+}
+
+button {
+    display: block;
+    margin: 25px auto;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: pink;
+    font-weight: bolder;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.404);
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
