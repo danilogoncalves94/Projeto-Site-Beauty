@@ -2,6 +2,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lovers+Quarrel&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 
 * {
     margin: 0px;
@@ -41,7 +43,7 @@ img {
 
 button {
     display: block;
-    margin: 25px auto;
+    margin: 40px auto;
     padding: 10px;
     border-radius: 20px;
     background-color: pink;
@@ -56,6 +58,13 @@ button:hover {
 a {
     text-decoration: none;
     color: black;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin: 20px;
+    font-size: 19px;
 }
 
 
