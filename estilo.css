@@ -46,7 +46,7 @@ button {
     margin: 40px auto;
     padding: 10px;
     border-radius: 20px;
-    background-color: pink;
+    background-color: rgb(255, 150, 168);
     font-weight: bolder;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.404);
 }
